@@ -1,0 +1,11 @@
+@media (min-width: 45rem) {
+  body {
+      background-image: url(../assets/home/background-home-desktop.jpg);
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+  }
+} 
+  
+  

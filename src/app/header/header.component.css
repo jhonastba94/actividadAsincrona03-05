@@ -1,0 +1,95 @@
+
+.containericon {
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    padding: 0 1rem;
+    display: flex;
+   
+  }
+  .linkContainer {
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 90%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    
+  }
+  .line {
+    position: absolute;
+    height: 1px;
+    width: 30%;
+    top: 8%;
+    left: 10%;
+    background: gray;
+    z-index: 2;
+  }
+  
+  .links {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background: #ffffff0a;
+    backdrop-filter: blur(40.7742px);
+    backdrop-filter: blur(10px);
+    display: flex;
+  }
+  .links ul {
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+  
+  .links li {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+     cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px;
+    display: flex;
+  }
+
+  .links .number {
+    font-family: Barlow Condensed;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: auto;
+  }
+  
+  .links .subT {
+    font-family: Barlow Condensed;
+    font-size: 1.5rem;
+    color: #b3b3b3;
+    margin: auto 10px; 
+  }
+
+  .links .link {
+    border-bottom: 4px solid #fff;
+  }
+  
+  .links a {
+    color: #fff;
+    
+  }
+  
+  a :hover {
+    text-decoration: none;
+  }
+  
+  .number:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .subT:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
